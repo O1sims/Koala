@@ -2,7 +2,7 @@
 
 ## Overview
 
-Kalua is a Python-based web application that illustrates the concept of (blockchain)[https://en.wikipedia.org/wiki/Blockchain]. The application provides a simple website that allows users to store and share information. The information shared on the blockchain is identified by three essential fields: (1) content; (2) author; and (3) timestamp. Because the content will be stored on the blockchain, it is immutable and permanent.
+Kalua is a Python-based web application that illustrates the concept of [blockchain][https://en.wikipedia.org/wiki/Blockchain]. The application provides a simple website that allows users to store and share information. The information shared on the blockchain is identified by three essential fields: (1) content; (2) author; and (3) timestamp. Because the content will be stored on the blockchain, it is immutable and permanent.
 
 ## Technology stack
 
