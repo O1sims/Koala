@@ -4,6 +4,10 @@
 
 Kalua is a mini blockchain application; a simple website that allows users to store and share information. The information shared on the blockchain is identified by three essential fields: (1) content; (2) author; and (3) timestamp. Because the content will be stored on the blockchain, it is immutable and permanent.
 
+## Technology stack
+
+The Python web application uses [Flask](http://flask.pocoo.org/) as its framework. Since this is just a mini application, there is no separate frontend framework and the blockchain data is just stored in-memory on the node server(s), so no separate database is used.
+
 ## Running the application
 
 There are two parts to this application: the node server and the client-side application itself. The node server handles the creation of blocks and the development of the blockchain. The client application handles the submission of transactions.
