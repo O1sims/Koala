@@ -40,7 +40,7 @@ def index():
     fetch_posts()
     return render_template(
         'index.html',
-        title='Kalua: Decentralized messaging',
+        title='Koala: Decentralized messaging',
         posts=posts,
         node_address=CONNECTED_NODE_ADDRESS,
         readable_time=timestamp_to_string)

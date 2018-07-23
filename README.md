@@ -1,8 +1,8 @@
-# Kalua
+# Koala
 
 ## Overview
 
-Kalua is a Python-based web application that illustrates the concept of [blockchain](https://en.wikipedia.org/wiki/Blockchain). The application provides a simple website that allows users to store and share information. The information shared on the blockchain is identified by three essential fields: (1) content; (2) author; and (3) timestamp. Because the content will be stored on the blockchain, it is immutable and permanent.
+Koala is a Python-based web application that illustrates the concept of [blockchain](https://en.wikipedia.org/wiki/Blockchain). The application provides a simple website that allows users to store and share information. The information shared on the blockchain is identified by three essential fields: (1) content; (2) author; and (3) timestamp. Because the content will be stored on the blockchain, it is immutable and permanent.
 
 ## Technology stack
 
@@ -12,11 +12,11 @@ The Python web application uses [Flask](http://flask.pocoo.org/) as its framewor
 
 There are two parts to this application: the node server and the client-side application itself. The node server handles the creation of blocks and the development of the blockchain. The client application handles the submission of transactions.
 
-To start the blockchain node server `cd` into the `Kalua` directory and run the following command:
+To start the blockchain node server `cd` into the `Koala` directory and run the following command:
 ```
 python node_server.py
 ```
-To spin up the client-side application, again make sure that you are in the `Kalua` directory and run:
+To spin up the client-side application, again make sure that you are in the `Koala` directory and run:
 ```
 python run_app.py
 ```
@@ -26,4 +26,4 @@ To play around by spinning off multiple custom nodes, use the `add_nodes/` endpo
 
 ## Contact
 
-The best way to troubleshoot or ask for a new feature or enhancement is to create a Github [issue](https://github.com/O1sims/Kalua/issues). However, if you have any further questions you can contact [me](mailto:sims.owen@gmail.com) directly.
+The best way to troubleshoot or ask for a new feature or enhancement is to create a Github [issue](https://github.com/O1sims/Koala/issues). However, if you have any further questions you can contact [me](mailto:sims.owen@gmail.com) directly.
